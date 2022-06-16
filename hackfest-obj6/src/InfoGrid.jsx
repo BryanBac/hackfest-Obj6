@@ -1,9 +1,10 @@
+import { Info } from "./Info";
+import styles from "./InfoGrid.module.css";
+
 export function InfoGrid() {
   return (
-    <ul>
-      <li> Peli 1</li>
-      <li> Peli 2</li>
-      <li> Peli 3</li>
+    <ul className={styles.Grid}>
+      <Info key="1" />
     </ul>
   );
 }
