@@ -1,10 +1,18 @@
 import { InfoGrid } from "./InfoGrid";
 import logo from "./imagenes/logo.jpg";
 import styles from "./GridDoble.module.css";
+import { NavBar } from "./NavBar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 export function MainApp() {
   return (
     <div className="Titulo">
       <header className={styles.cabecera}>
+        <Router>
+          <NavBar />
+          <Routes>
+            <Route path="/" />
+          </Routes>
+        </Router>
         <div>
           <img src={logo} height="75px" alt="" className={styles.elementos} />
           <h1 className={styles.elementos}>
@@ -19,6 +27,7 @@ export function MainApp() {
       </header>
       <main>
         <InfoGrid />
+        <h2>Hola</h2>
       </main>
     </div>
   );
