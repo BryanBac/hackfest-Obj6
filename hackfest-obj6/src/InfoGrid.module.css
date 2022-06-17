@@ -1,0 +1,6 @@
+.Grid{
+    display: grid;
+    justify-content: center;
+    padding: 30px;
+    gap: 10px;
+}
