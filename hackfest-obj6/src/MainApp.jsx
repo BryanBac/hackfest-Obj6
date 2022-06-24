@@ -27,7 +27,13 @@ export function MainApp() {
       </header>
       <main>
         <InfoGrid />
-        <h2>Hola</h2>
+        <h1 className={styles.ejemplos}>titulos</h1>
+        <h2>subtitulos</h2>
+        <p>parrafos donde tenes que escribir </p>
+        <ul>
+          <li>jaja</li>
+          <li>jajax2</li>
+        </ul>
       </main>
     </div>
   );
