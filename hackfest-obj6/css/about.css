@@ -1,0 +1,60 @@
+#cuerpo {
+    background-color: aquamarine;
+}
+#menu-h {
+    width: auto;
+    min-height: 50px;
+    margin: auto;
+    background: black;
+}
+#logo {
+    height: 65px;
+    width: 65px;
+}
+#menu-h ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#menu-h a {
+    color: white;
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    background: black;
+}
+
+#menu-h a:hover {
+    background: aqua;
+    color: black;
+}
+#nosotros{
+    padding: 50px;
+}
+#nosotros ul{
+    list-style: none;
+    display: block;
+}
+#Bryan, #Kathya, #Laura, #Diego {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+footer {
+    width: auto;
+    min-height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    background: black;
+}
+#vamonos {
+    display: flex;
+    justify-content: center;
+}
+
+#vamonos img {
+    max-height: 20px;
+    background-color: white;
+    margin-top: 10px;
+}
