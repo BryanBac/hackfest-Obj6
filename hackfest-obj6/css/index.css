@@ -5,13 +5,14 @@
     width: auto;
     min-height: 50px;
     margin: auto;
-    background: #27bfe6;
+    background: #27bfe6;;
 }
 
 #menu-h ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    border-bottom: 10px solid #ffcd04;
 }
 #logo {
     height: 65px;
@@ -23,6 +24,8 @@
     padding: 25px;
     text-decoration: none;
     background: #27bfe6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 18px;
 }
 
 #menu-h a:hover {
@@ -43,6 +46,45 @@ footer {
 
 #vamonos img {
     max-height: 20px;
-    margin-top: 10px;
-	width: 50px;
+    margin-top: 15px;
+    width: 50px;
+}
+
+h1{
+    background: #27bfe6;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f9fafe;
+}
+
+h2{
+    background: #c7ecff;
+    border-radius: 25px;
+    border: 10px solid #f9fafe;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4b90b3;
+}
+
+#m1, #m3, #m5{
+    background: #89defa;
+    border-radius: 25px;
+    border: 10px solid #f9fafe;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #375064;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+
+#m2, #m4, #m6{
+    background: #3190b3;
+    border-radius: 25px;
+    border: 10px solid #f9fafe;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #002a39;
+    font-size: 18px;
+    letter-spacing: 0.2px
 }

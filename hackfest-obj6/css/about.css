@@ -14,7 +14,8 @@
 #menu-h ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    border-bottom: 10px solid #ffcd04;
 }
 
 #menu-h a {
@@ -23,6 +24,8 @@
     padding: 25px;
     text-decoration: none;
     background: #27bfe6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 18px;
 }
 
 #menu-h a:hover {
@@ -41,12 +44,32 @@
     height: 150px;
     width: 150px;
 }
+#t1, #t3{
+    background: #89defa;
+    border-radius: 100px 25px 25px 100px;
+    border: 10px solid #f9fafe;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #375064;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+#t2, #t4{
+    background: #3190b3;
+    border-radius: 100px 25px 25px 100px;
+    border: 10px solid #f9fafe;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #002a39;
+    font-size: 18px;
+    letter-spacing: 0.2px
+}
 footer {
     width: auto;
     min-height: 50px;
     margin: auto;
     margin-top: 10px;
-    background: black;
+    background: #27bfe6;
 }
 #vamonos {
     display: flex;
@@ -55,6 +78,6 @@ footer {
 
 #vamonos img {
     max-height: 20px;
-    background-color: white;
     margin-top: 10px;
+    width: 50px;
 }
