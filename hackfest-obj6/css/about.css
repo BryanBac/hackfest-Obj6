@@ -1,11 +1,11 @@
 #cuerpo {
-    background-color: aquamarine;
+    background-color: #f9fafe;
 }
 #menu-h {
     width: auto;
     min-height: 50px;
     margin: auto;
-    background: black;
+    background: #27bfe6;
 }
 #logo {
     height: 65px;
@@ -18,16 +18,16 @@
 }
 
 #menu-h a {
-    color: white;
+    color: #f9fafe;
     display: block;
     padding: 25px;
     text-decoration: none;
-    background: black;
+    background: #27bfe6;
 }
 
 #menu-h a:hover {
-    background: aqua;
-    color: black;
+    background: #f9fafe6e;
+    color: #004862;
 }
 #nosotros{
     padding: 50px;
