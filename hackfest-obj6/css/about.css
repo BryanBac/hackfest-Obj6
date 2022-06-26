@@ -1,0 +1,83 @@
+#cuerpo {
+    background-color: #f9fafe;
+}
+#menu-h {
+    width: auto;
+    min-height: 50px;
+    margin: auto;
+    background: #27bfe6;
+}
+#logo {
+    height: 65px;
+    width: 65px;
+}
+#menu-h ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    border-bottom: 10px solid #ffcd04;
+}
+
+#menu-h a {
+    color: #f9fafe;
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    background: #27bfe6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 18px;
+}
+
+#menu-h a:hover {
+    background: #f9fafe6e;
+    color: #004862;
+}
+#nosotros{
+    padding: 50px;
+}
+#nosotros ul{
+    list-style: none;
+    display: block;
+}
+#Bryan, #Kathya, #Laura, #Diego {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+#t1, #t3{
+    background: #89defa;
+    border-radius: 100px 25px 25px 100px;
+    border: 10px solid #f9fafe;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #375064;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+#t2, #t4{
+    background: #3190b3;
+    border-radius: 100px 25px 25px 100px;
+    border: 10px solid #f9fafe;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #002a39;
+    font-size: 18px;
+    letter-spacing: 0.2px
+}
+footer {
+    width: auto;
+    min-height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    background: #27bfe6;
+}
+#vamonos {
+    display: flex;
+    justify-content: center;
+}
+
+#vamonos img {
+    max-height: 20px;
+    margin-top: 10px;
+    width: 50px;
+}
