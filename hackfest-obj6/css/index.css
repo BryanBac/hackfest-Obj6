@@ -1,0 +1,222 @@
+#cuerpo {
+    background-color: #f9fafe;
+}
+#menu-h {
+    width: auto;
+    min-height: 50px;
+    margin: auto;
+    background: #27bfe6;;
+}
+
+#menu-h ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    border-bottom: 10px solid #ffcd04;
+}
+#logo {
+    height: 65px;
+    width: 65px;
+}
+#menu-h a {
+    color: #f9fafe;
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    background: #27bfe6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 18px;
+}
+
+#menu-h a:hover {
+    background: #f9fafe6e;
+    color: #004862;
+}
+footer {
+  width: auto;
+  min-height: 50px;
+  margin: auto;
+  margin-top: 10px;
+  background: #27bfe6;
+}
+#vamonos {
+    display: flex;
+    justify-content: center;
+}
+
+#vamonos img {
+    max-height: 20px;
+    margin-top: 15px;
+    width: 50px;
+}
+
+h1{
+    background: #27bfe6;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f9fafe;
+}
+
+h2{
+    background: #c7ecff;
+    border-radius: 25px;
+    border: 10px solid #f9fafe;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4b90b3;
+}
+
+#m1, #m3, #m5{
+    position:relative;
+    width:44%;
+    margin-top:10px;
+    background: #89defa;
+    border-radius: 25px;
+    border: 10px solid #f9fafe;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #375064;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+
+#m2, #m4, #m6{
+    position:relative;
+    width:44%;
+    margin-top:10px;
+    background: #3190b3;
+    border-radius: 25px;
+    border: 10px solid #f9fafe;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #002a39;
+    font-size: 18px;
+    letter-spacing: 0.2px
+}
+#estiloa{
+    position:relative;
+    width:42%;
+    margin-top:10px;
+    background: #89defa;
+    border-radius: 25px;
+    border: 10px solid #f9fafe;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #375064;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+
+#estilob{
+    position:relative;
+    width:42%;
+    margin-top:10px;
+    background: #3190b3;
+    border-radius: 25px;
+    border: 10px solid #f9fafe;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #002a39;
+    font-size: 18px;
+    letter-spacing: 0.2px
+}
+
+#columna1 {
+    position:relative;
+    width:44%;
+    margin-top:10px;
+    left: 3%;
+    background: #09b8f8a2;
+    border-radius: 25px;
+    border: 10px solid #f9fafe;
+    padding: 15px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #375064;
+    font-size: 25px;
+    letter-spacing: 0.2px
+}
+#columna2 {
+    position: absolute;
+    top:327px;
+    width: 44%;
+    margin-top:10px;
+    left: 51%;
+    background: #09b8f8a2;
+    border-radius: 25px;
+    border: 10px solid #f9fafe;
+    padding: 15px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #375064;
+    font-size: 25px;
+    letter-spacing: 0.2px
+}
+
+#lista2 {
+    position: absolute;
+    top:390px;
+    width: 51%;
+    margin-top:10px;
+    left: 51%;
+    border-radius: 25px;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #375064;
+    font-size: 18px;
+    letter-spacing: 0.2px
+}
+
+#i1, #i3, #i5{
+    position: relative;
+    width: 84%;
+    margin-top:10px;
+    background: #89defa;
+    border-radius: 25px;
+    border: 10px solid #f9fafe;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #375064;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+
+#i2, #i4, #i6{
+    position: relative;
+    width: 84%;
+    margin-top:10px;
+    background: #3190b3;
+    border-radius: 25px;
+    border: 10px solid #f9fafe;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #002a39;
+    font-size: 18px;
+    letter-spacing: 0.2px
+}
+#ia{
+    position: relative;
+    width: 82%;
+    margin-top:10px;
+    background: #89defa;
+    border-radius: 25px;
+    border: 10px solid #f9fafe;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #375064;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+
+#ib{
+    position: relative;
+    width: 82%;
+    margin-top:10px;
+    background: #3190b3;
+    border-radius: 25px;
+    border: 10px solid #f9fafe;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #002a39;
+    font-size: 18px;
+    letter-spacing: 0.2px
+}
